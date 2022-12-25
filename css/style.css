@@ -1,0 +1,153 @@
+@import url('header.css');
+@import url('nav.css');
+@import url('main.css');
+@import url('footer.css');
+@import url('submain.css');
+@import url('flickericon.css');
+
+:root {
+    --main-color1: #3b84b0;
+    --bg-color1: #222326;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    max-width: 100%;
+}
+.invalid {
+    border: none;
+    outline: 2px solid red;
+}
+
+.hidden {
+    display: none;
+}
+footer .fa-location-dot {
+    color: #fbca00;
+    position: relative;
+    top: .9rem;
+    left: .1rem;
+    font-size: 1.8rem;
+}
+
+.fa-mobile-screen-button {
+    color: #fbca00;
+    position: relative;
+    top: .5rem;
+    left: .1rem;
+    font-size: 1.8rem;
+}
+
+footer .fa-envelope {
+    color: #fbca00;
+    position: relative;
+    top: .55rem;
+    font-size: 1.6rem;
+}
+
+.fa-twitter {
+    color: white;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+}
+
+.fa-twitter:hover {
+    color: var(--main-color1);
+}
+
+footer .fa-facebook-f {
+    color: white;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+}
+
+footer .fa-facebook-f:hover {
+    color: var(--main-color1);
+}
+
+.fa-skype {
+    color: white;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.fa-skype:hover {
+    color: var(--main-color1);
+}
+
+footer .fa-youtube {
+    color: white;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+}
+
+footer .fa-youtube:hover {
+    color: var(--main-color1);
+}
+
+.fa-google {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.fa-google:hover {
+    color: var(--main-color1);
+}
+
+.fa-location-dot {
+    font-size: 3rem;
+    color: var(--main-color1);
+}
+
+.fa-phone {
+    font-size: 3rem;
+    color: var(--main-color1);
+}
+
+.fa-envelope {
+    font-size: 3rem;
+    color: var(--main-color1);
+}
+
+#gototop {
+    display: none;
+    position: fixed;
+    bottom: 11rem;
+    right: 1.8rem;
+    border: none;
+    outline: none;
+    background-color: var(--main-color1);
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+#gototop:hover {
+    background-color: greenyellow;
+}
